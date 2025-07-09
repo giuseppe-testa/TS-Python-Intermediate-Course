@@ -1,144 +1,42 @@
-# <div align="center">TS-Python-Intermediate-Course</div>
+Welcome to the **TS-Python-Intermediate-Course** repository!  
 
-Welcome to the **TS Python Intermediate Course**!
-...
+This repo contains the materials, examples, and exercises for the Python base course taught at TS.
 
-## Table of Contents
+## 📁 Repository Structure
 
-1. [Course Overview](#course-overview)
-2. ...
+Each edition of the course is organized in its own folder:
 
----
+- [`2024ed/`](./2024ed/) – Content for the 2024 edition of the course.
+- [`2025ed/`](./2025ed/) – Content for the 2025 edition of the course.
 
-## Course Overview
+> **Note:** Each folder is self-contained and may include lesson plans, notebooks, assignments, and additional 
+> resources specific to that year.
 
-This course covers the following topics:
+## 🐍 About the Course
 
-1. **Python Basics**: Variables, data types, operators, basic syntax, and control flow.
-2. **Data Structures**: Lists, tuples, sets, and dictionaries.
-3. **Functions and Modules**: Writing reusable code and modular programming.
-4. **Object-Oriented Programming (OOP)**: Classes, objects, inheritance, polymorphism, and encapsulation.
-5. **Practical Applications**: Real-world coding exercises and a final laboratory session on LangChain and large language models.
+This is an introductory Python course aimed at providing a solid foundation in programming using Python. Topics covered typically include:
 
-## Prerequisites
+- Higher-order functions (map, filter, reduce), unpacking arguments, and lambda functions
+- File Handling
+- Comprehensions (list, set, dict), unpacking operators, and nested loops
 
----
+## 📝 Prerequisites
 
-## Installation Instructions
+- Basic understanding of programming concepts (variables, loops, conditionals)
+- Familiarity with Python basic syntax
 
-### Setting Up Codespaces
+## 💻 Using GitHub Codespaces
 
-We will be using GitHub Codespaces, a cloud-based development environment, for this course. This allows you to code directly in your browser without setting up a local environment.
+You can run this course directly in your browser using [GitHub Codespaces](https://github.com/features/codespaces). This is a great way to avoid local setup and get started immediately.
 
-#### What is GitHub Codespaces?
+To use Codespaces:
 
-GitHub Codespaces provides an online development environment powered by Visual Studio Code. It includes a pre-configured environment with all dependencies installed, enabling you to focus on coding.
+1. Fork this repository to your own GitHub account (if you don't have write access).
+2. Click the green **Code** button on your fork.
+3. Select **Open with Codespaces** > **New codespace**.
+4. Wait for the environment to initialize. A VS Code instance will launch in your browser.
+5. Use the terminal or integrated tools to navigate to the desired edition folder (`2024/`, `2025ed/`, etc.).
+6. Follow the instructions provided in that edition’s README or setup file.
 
-#### How to Set Up Codespaces for This Course
-
-1. **Fork this Repository**:
-   - Go to the [TS-Python-Intermediate-Course](https://github.com/giuseppe-testa/TS-Python-Intermediate-Course).
-   - Click on the **Fork** button at the top-right corner to create your copy of the repository.
-
-2. **Create a Codespace**:
-   - Navigate to your forked repository.
-   - Click the **Code** button and select the **Codespaces** tab.
-   - Click **Create Codespace on main**.
-
-3. **Start Coding**:
-   - Once the Codespace is ready, it will open in a VS Code-like environment in your browser.
-   - Use the terminal within Codespaces to run your Python scripts.
-
-4. **Sync Changes**:
-   - All changes you make in Codespaces are saved to your forked repository. You can push changes back to GitHub at any time.
-
-
-### Installing Python
-
-You will not need Python installed on your machine. But, if you are courious, below are the installation instructions for both Windows and macOS.
-
-#### Windows
-
-1. Go to the [official Python website](https://www.python.org/).
-2. Download the latest version of Python for Windows.
-3. Run the installer and make sure to check the box **Add Python to PATH** before proceeding.
-4. Verify the installation by opening the Command Prompt and typing:
-
-   ```bash
-   python --version
-   ```
-
-   You should see the installed Python version.
-
-#### macOS
-
-1. Open the Terminal and check if Python is pre-installed by typing:
-
-   ```bash
-   python3 --version
-   ```
-
-2. If not installed, use Homebrew to install Python:
-
-   ```bash
-   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-   brew install python
-   ```
-
-3. Verify the installation by typing:
-
-   ```bash
-   python3 --version
-   ```
-
----
-
-## Course Content
-
-#### Day 1
-| Time          | Topic                                | Description                          |
-|---------------|--------------------------------------|--------------------------------------|
-| **9:30**      | Welcome & Python Basics Recap        | Quick overview of Python basics: syntax, data types, loops, and conditionals. |
-| **10:45**     | Advanced Functions                   | 	Higher-order functions (map, filter, reduce), unpacking arguments, and lambda functions. |
-| **11:15**     | Break                                | Relax and recharge.              |
-| **11:30**     | File Handling                        | Handling text, CSV, and JSON files.  |
-| **12:00**     | Python Syntax Deep Dive              | Explore comprehensions (list, set, dict), unpacking operators, and nested loops. |
-| **12:30**     | Real-World Problem Solving           | Solve intermediate-level problems using advanced data types and functions. |
-
-
-#### Day 2
-
-
-| Time          | Topic                                | Description                          |
-|---------------|--------------------------------------|--------------------------------------|
-| **9:30**      | Revisiting Object-Oriented Programming | Briefly revisit OOP: focus on practical class structures, inheritance, and custom methods.       |
-| **10:30**     | Lab Setup                            | Introduce the lab objective: Working with Python and Large Language Models (LLMs). |
-| **11:00**     | Break                                | Relax and recharge.                                                   |
-| **11:15**     | Lab: Building an LLM Integration     | Hands-on lab to integrate an LLM with Python.  |
-| **12:45**     | Lab Wrap-Up and Discussion           | Present and discuss lab outcomes. Troubleshoot challenges and summarize key takeaways.           |
-
-
----
-
-## How to Use This Repository
-
-1. **Clone the Repository**:
-   - Use the following command to clone your forked repository:
-
-     ```bash
-     git clone https://github.com/your-username/TS-Python-Base-Course-Public.git
-     ```
-
-2. **Follow the Course**:
-   - Navigate to the appropriate folder for each module (e.g., `01 - Python Basics Course Day 1.ipynb`, `03 - Day 1 Solutions.ipynb`).
-   - Open Jupyter Notebooks or Python scripts provided in each folder.
-
-3. **Complete Exercises**:
-   - Each module includes exercises to reinforce the concepts. Solutions are provided in the `solutions` notebooks.
-
-4. **Participate in Labs**:
-   - The `labs` notebook contains the final lab projects. Follow the instructions to complete the tasks.
-
----
-
-<div align="center">Enjoy your Python learning journey!</div>
+> Make sure your browser supports Codespaces and you have access to GitHub Codespaces in your account.
+> The enterprises accounts, e.g., the one priveded to install github copilot, does not work with codespaces. You'll need a personal github account.
